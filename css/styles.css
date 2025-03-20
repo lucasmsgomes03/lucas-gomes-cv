@@ -3,40 +3,48 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" 
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #D8CFB3
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+	font-family: "Barriecito", system-ui;
+    background-color: #AECCB8;
+}
+
+.resume-headertext {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	background-color: #AECCB8;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #AECCB8;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #96AF9B;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "ð–¦¹";
 	font-weight: 800;
 	display: inline-block;
-	width: 1em;
+	width: 1.5em;
 	margin-left: -1em;
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color:#4A7659;
 }
 
 .biography-details li, .skill-list li {
@@ -47,5 +55,5 @@ body {
 
 .contact-icon {
 	height: 1em;
-	flex-basis: 1.4em;
+	flex-basis: 2em;
 }
