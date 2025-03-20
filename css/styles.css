@@ -1,14 +1,11 @@
 /* Use this file to use your own styles*/
-
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
-
 /* Styles for the body */
 
 body {
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" 
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 	color: #202030;
 	background-color: #D8CFB3
 }
@@ -16,12 +13,16 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-	font-family: "Barriecito", system-ui;
+  font-family: "Boldonse", system-ui;
+  font-weight: 100;
+  font-style: normal;
     background-color: #AECCB8;
 }
 
 .resume-headertext {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal;
 	background-color: #AECCB8;
 }
 
@@ -33,10 +34,26 @@ body {
 	background-color: #96AF9B;
 }
 
+.border-info {
+    border-color: #2A5A39 !important;
+}
+
+.bg-warning {
+    background-color: #2A5A39 !important;
+}
+
+.language-level {
+	color: #D8CFB3 
+}
+
+.bg-dark {
+	color: #D8CFB3  
+}
+
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: "ð–¦¹";
+	content: "𔓘";
 	font-weight: 800;
 	display: inline-block;
 	width: 1.5em;
